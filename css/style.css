@@ -1,0 +1,149 @@
+/*обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	transition: all .1s ease-in;
+}
+*,*:before,*:after{ 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+html,
+body{
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+.wrapper {
+	background-color: #3399cc;
+	border: 20px solid #2b81ac;
+	min-height: 100vh;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 980px;
+	width: 100%;
+}
+
+
+
+h1 {
+	font-weight: normal;
+	text-transform: capitalize;
+	font-size: 26px;
+	padding: 25px 0;
+}
+h1 i {
+	font-size: 26px;
+}
+
+
+ul {
+	list-style: none;
+	font-size: 0;
+	border: 3px solid #fff;
+	text-align: center;
+	background-color: #fff;
+}
+
+li {
+	display: inline-block;
+	border: 3px solid #fff;
+	font-size: 24px;	
+}
+
+li p {
+	color: rgba(255,255,255,0.5);
+}
+
+li i {
+	font-size: 35px;
+	vertical-align: middle;
+}
+
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	padding: 25px 0;
+	letter-spacing: 0.5px;
+}
+
+
+.city {
+	vertical-align: top;
+	line-height: 2em;
+	padding-top: 19px;
+	padding-bottom: 15px;
+	
+}
+
+.col-25 {
+	width: 25%;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.city-lisbon {
+	background-color: #39c;
+}
+
+.city-paris {
+	background-color: #3cc;
+}
+
+.city-belgrade {
+	background-color: #996699;
+}
+
+.city-moscow {
+	background-color: #C24747;
+}
+
+.city-telaviv {
+	background-color: #E2674A;
+}
+
+.city-cair {
+	background-color: #FFCC66;
+}
+
+.city-new-york {
+	background-color: #99CC99;
+}
+
+.city-new-delhi {
+	background-color: #669999;
+}
+
+.city-san-francisko {
+	background-color: #CC6699;
+}
+
+.city-tokyo {
+	background-color: #339966;
+}
+
+.city-sydney {
+	width: 100%;
+	background-color: #666699;
+}
+
+ul:hover li {
+	opacity: 0.5;
+}
+
+ul li:hover {
+	opacity: 1;
+}
